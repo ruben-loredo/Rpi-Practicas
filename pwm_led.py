@@ -1,3 +1,7 @@
+#programa que incrementa y decrementa
+#el brillo de un LED conectado en el pin gpio 18
+#mediante PWM
+
 import time
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
